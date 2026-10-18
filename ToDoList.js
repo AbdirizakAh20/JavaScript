@@ -5,10 +5,20 @@ const list = document.querySelector('#todos')
 
 btn.addEventListener('click', (event) => { 
     event.preventDefault();
-    const newTodo = document.createElement('li')
-    const newText = input.value[0].toUpperCase[] + input.value.slice(1)
-    const newTodoText = document.createTextNode(newText);
-    newTodo.appendChild(newTodoText);
+    const newTodo = createNewTodo();
     list.appendChild(newTodo);
-    input.value = ''
+    input.value = '';
 });
+
+const createNewTodo = () => {
+    const newTodo = document.createElement('li');
+    const newTodoText = document.createTextNode(
+        capitaliseFirstLetter(input.value)
+    );
+    newTodo.appendChild(newTodoText);
+    return newTodo;
+};
+
+const capitaliseFirstLetter = (string) => {
+    return string[0].toUpperCase() + string.slice(1);
+};
