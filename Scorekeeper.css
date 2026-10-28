@@ -57,17 +57,33 @@ body{
 	padding: 50px;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: center; 
+	gap: 10px;
 }
 
-.bold{
+.title{
 	font-weight: bold;
-	font-size: 26px;
+	font-size: 18px;
 }
 
 .score{
+	font-weight: bold;
+	font-size: 32px;
+}
+
+.playing{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.first{
 	
 }
+
+.second{
+
+}
+
 
 .img{
 	width: 50%;
