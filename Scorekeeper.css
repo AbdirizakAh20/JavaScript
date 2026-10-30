@@ -76,14 +76,21 @@ body{
 	font-size: 18px;
 }
 
-.first{
+.button{
 	
 }
 
-.second{
+#first{
 
 }
 
+#second{
+
+}
+
+#reset{
+	
+}
 
 .img{
 	width: 50%;
