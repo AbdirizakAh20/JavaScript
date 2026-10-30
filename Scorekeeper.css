@@ -77,19 +77,19 @@ body{
 }
 
 .button{
-	
+	color: white;
 }
 
 #first{
-
+	background-color: green;
 }
 
 #second{
-
+	background-color: blue;
 }
 
 #reset{
-	
+	background-color: red;
 }
 
 .img{
