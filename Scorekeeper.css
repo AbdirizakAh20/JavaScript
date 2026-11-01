@@ -78,22 +78,39 @@ body{
 
 .button{
 	color: white;
+	min-width: 115px;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
 }
 
 #first{
 	background-color: green;
 }
 
+#first:hover{
+	background-color: darkgreen;
+}
+
 #second{
 	background-color: blue;
+}
+
+#second:hover{
+	background-color:dodgerblue;
 }
 
 #reset{
 	background-color: red;
 }
 
+#reset:hover{
+	background-color:crimson;
+}
+
 .img{
 	width: 50%;
 	height: 275px;
 	min-width: 500px;
+	border-radius: 5px;
 }
