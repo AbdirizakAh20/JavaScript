@@ -37,3 +37,23 @@ const theaterInfo =
     `${theater.name} has ${theater.screens} screens and is located in ${theater.city}, ${theater.state}.`;
 
 console.log(theaterInfo);
+
+function printExclamation() {
+    console.log("!!");
+}
+
+printExclamation();
+
+function sayHello() {
+    console.log("Hello, world!");
+}
+
+sayHello();
+
+function printCheer() {
+    console.log("Go team!");
+    console.log("We got this!");
+}
+
+printCheer();
+printCheer();
