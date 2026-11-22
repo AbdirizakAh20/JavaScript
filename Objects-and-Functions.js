@@ -57,3 +57,26 @@ function printCheer() {
 
 printCheer();
 printCheer();
+
+function rant(message) {
+    console.log(message.toUpperCase());
+    console.log(message.toUpperCase());
+    console.log(message.toUpperCase());
+};
+
+rant("i hate beets");
+
+function whisper(message) {
+    console.log(message.toLowerCase());
+    console.log(message.toLowerCase());
+};
+
+whisper("PLEASE BE QUIET");
+
+function announce(item) {
+    console.log(`Now serving: ${item.toUpperCase()}!`);
+}
+
+announce("pizza");
+announce("tacos");
+
