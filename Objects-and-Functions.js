@@ -80,3 +80,38 @@ function announce(item) {
 announce("pizza");
 announce("tacos");
 
+function isSnakeEyes(dice1, dice2) {
+    if (dice1 === 1 && dice2 === 1) {
+        console.log("Snake Eyes!");
+    } else {
+        console.log("Not Snake Eyes!");
+    }
+}
+
+isSnakeEyes (1, 1); // Snake Eyes!
+isSnakeEyes (1, 4); // Not Snake Eyes!
+isSnakeEyes (4, 5); // Not Snake Eyes!
+
+function isBoxcars (dice1, dice2) {
+    if (dice1 === 6 && dice2 === 6) {
+        console.log("Boxcars!");
+    } else {
+        console.log("Not Boxcars!");
+    }
+}
+
+isBoxcars (6, 6); // Boxcars!
+isBoxcars (6, 4); // Not Boxcars!
+isBoxcars (6, 5); // Not Boxcars!
+
+function isDoubles (dice1, dice2) {
+    if (dice1 === dice2) {
+        console.log("Doubles!");
+    } else {
+        console.log("No doubles.");
+    }
+}
+
+isDoubles (3, 3); // Doubles!
+isDoubles (6, 6); // No doubles.
+isDoubles (5, 4); // No doubles.
